@@ -1,0 +1,40 @@
+{
+  "name": "md-slides",
+  "version": "1.0.0",
+  "description": "A simple yet powerful Markdown-to-HTML presentation tool — like slidev-lite. Takes a markdown file and generates a self-contained HTML presentation with dark theme and slide transitions.",
+  "main": "index.js",
+  "bin": {
+    "md-slides": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "template.html"
+  ],
+  "keywords": [
+    "markdown",
+    "slides",
+    "presentation",
+    "html",
+    "cli",
+    "dark-theme",
+    "slide-deck",
+    "md-to-html",
+    "presentation-tool"
+  ],
+  "license": "MIT",
+  "author": "SCL339",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SCL339/md-slides.git"
+  },
+  "homepage": "https://github.com/SCL339/md-slides",
+  "bugs": {
+    "url": "https://github.com/SCL339/md-slides/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "marked": "^15.0.0"
+  }
+}
