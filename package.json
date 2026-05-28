@@ -1,5 +1,6 @@
 {
-  "name": "md-slides",
+  "name": "scl339-md-slides",
+  "publishConfig": { "access": "public" },
   "version": "1.0.0",
   "description": "A simple yet powerful Markdown-to-HTML presentation tool — like slidev-lite. Takes a markdown file and generates a self-contained HTML presentation with dark theme and slide transitions.",
   "main": "index.js",
